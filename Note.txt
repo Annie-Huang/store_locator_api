@@ -2,7 +2,10 @@ https://www.youtube.com/watch?v=9FQrFah9rnc&t=161s
 https://github.com/bradtraversy/store_locator_api
 https://github.com/Annie-Huang/store_locator_api
 
+https://mongoosejs.com/docs/geojson.html
+https://developer.mapquest.com/
+https://developer.mapquest.com/documentation/
 =============================================================
 
 
-
+C:\react\store_locator_api>npm init -y
