@@ -13,7 +13,22 @@ async function getStores() {
     const res = await fetch('/api/v1/stores');
     const data = await res.json();
 
-    console.log(data);
+    // console.log(data);
+    const stores = data.data.map(store => {
+        return {
+            type: 'Feature',
+            geometry: {
+                type: 'Point',
+                coordinates: [store.location.coordinates[0], store.location.coordinates[1]]
+            },
+            properties: {
+                storeId: store.storeId,
+                icon: 'shop'
+            }
+        }
+    });
+
+    loadMap(stores);
 }
 
 // Load map with stores
