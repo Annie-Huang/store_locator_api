@@ -25,14 +25,24 @@ function loadMap() {
                                 type: 'Point',
                                 coordinates: [-71.157895, 42.707741]
                             },
+                            properties: {
+                                storeId: '0001',
+                                icon: 'shop'
+                            }
                         }
                     ]
                 }
             },
             layout: {
-                'icon-image': 'cat',
-                'icon-size': 0.25
+                'icon-image': '{icon}-15',
+                'icon-size': 1.5,
+                'text-field': '{storeId}',
+                'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                'text-offset': [0, 0.9],
+                'text-anchor': 'top'
             }
         });
     });
 }
+
+loadMap();
