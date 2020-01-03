@@ -12,24 +12,24 @@ const map = new mapboxgl.Map({
 function loadMap() {
     map.on('load', function() {
         map.addLayer({
-            'id': 'points',
-            'type': 'symbol',
-            'source': {
-                'type': 'geojson',
-                'data': {
-                    'type': 'FeatureCollection',
-                    'features': [
+            id: 'points',
+            type: 'symbol',
+            source: {
+                type: 'geojson',
+                data: {
+                    type: 'FeatureCollection',
+                    features: [
                         {
-                            'type': 'Feature',
-                            'geometry': {
-                                'type': 'Point',
-                                'coordinates': [-71.157895, 42.707741]
-                            }
+                            type: 'Feature',
+                            geometry: {
+                                type: 'Point',
+                                coordinates: [-71.157895, 42.707741]
+                            },
                         }
                     ]
                 }
             },
-            'layout': {
+            layout: {
                 'icon-image': 'cat',
                 'icon-size': 0.25
             }
