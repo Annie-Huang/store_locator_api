@@ -18,6 +18,9 @@ app.use(express.json());
 // Enable cors
 app.use(cors());
 
+// Set static folder
+app.use(express.static(path.join(__dirname, 'public')));
+
 // app.get('/api/v1/stores', (req, res) => {
 //     res.send('Hello');
 // });
