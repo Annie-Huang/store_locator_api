@@ -9,3 +9,25 @@ https://developer.mapquest.com/documentation/
 
 
 C:\react\store_locator_api>npm init -y
+
+mongoose - object data mapper. you can create our modal etc
+dotenv - takes care of the global configure variables
+node-geocoder - handle the geo coding
+cors - cross domain supported
+
+C:\react\store_locator_api>npm i express mongoose dotenv node-geocoder cors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
