@@ -39,9 +39,15 @@ exports.addStore = async (req, res, next) => {
     try {
         // Test it by sending a dummy request through postman and you can see the body is log in terminal:
         // { storeId: '0001', address: '10 main st haverhill ma' }
-        console.log(req.body);
+        // console.log(req.body);
 
-    } catch (err) {
+        const store = await Store.create(req.body);
+        return res.status(200).json({
+            success: true,
+            data: store
+        });
+
+        } catch (err) {
         console.error(err);
         res.status(500).json({ error: 'Server error' });
     }
