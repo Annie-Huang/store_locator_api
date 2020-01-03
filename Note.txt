@@ -18,6 +18,7 @@ cors - cross domain supported
 C:\react\store_locator_api>npm i express mongoose dotenv node-geocoder cors
 C:\react\store_locator_api>npm i -D nodemon
 
+C:\react\store_locator_api>npm run dev
 
 
 
