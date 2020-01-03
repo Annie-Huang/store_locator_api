@@ -47,8 +47,20 @@ exports.addStore = async (req, res, next) => {
             data: store
         });
 
-        } catch (err) {
+    } catch (err) {
         console.error(err);
+        // e.g. you will get this error in the terminal, if the store already exits:
+        /*
+          name: 'MongoError',
+          index: 0,
+          code: 11000,
+          errmsg: 'E11000 duplicate key error collection: storelocator.stores index: storeId_1 dup key: { : "0001" }',
+          [Symbol(mongoErrorContextSymbol)]: {}
+         */
+        if(err.code === 11000) {
+            return res.status(400).json({ error: 'This store already exists'});
+        }
+
         res.status(500).json({ error: 'Server error' });
     }
 };
