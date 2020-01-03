@@ -30,3 +30,19 @@ exports.getStores = async (req, res, next) => {
         res.status(500).json({ error: 'Server error' });
     }
 };
+
+
+// @desc Create a store
+// @route Post /api/vi/stores
+// @access Public
+exports.addStore = async (req, res, next) => {
+    try {
+        // Test it by sending a dummy request through postman and you can see the body is log in terminal:
+        // { storeId: '0001', address: '10 main st haverhill ma' }
+        console.log(req.body);
+
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: 'Server error' });
+    }
+};
