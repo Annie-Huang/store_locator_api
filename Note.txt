@@ -6,6 +6,8 @@ https://mongoosejs.com/docs/geojson.html
 https://developer.mapquest.com/
 https://developer.mapquest.com/documentation/
 https://github.com/nchaulet/node-geocoder
+https://www.bootstrapcdn.com/
+https://cdnjs.com/libraries/font-awesome
 
 Screenprint is in C:\react\MongoDBAtlasII.docx
 
