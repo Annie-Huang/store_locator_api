@@ -8,6 +8,9 @@ https://developer.mapquest.com/documentation/
 https://github.com/nchaulet/node-geocoder
 
 Screenprint is in C:\react\MongoDBAtlasII.docx
+
+Backend part: All folders except for public
+Frontend part: public folder.
 =============================================================
 
 
