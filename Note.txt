@@ -20,7 +20,8 @@ C:\react\store_locator_api>npm i -D nodemon
 
 C:\react\store_locator_api>npm run dev
 
-
+after succesfully connects to db in server.js (connectDB();),
+the terminal will show MongoDB connected demo-cluster-shard-00-00-4fb1w.mongodb.net
 
 
 
