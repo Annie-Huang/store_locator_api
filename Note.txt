@@ -9,7 +9,8 @@ https://github.com/nchaulet/node-geocoder
 https://www.bootstrapcdn.com/
 https://cdnjs.com/libraries/font-awesome
 https://www.mapbox.com/                     << Created Account (omg, how many accounts i need to create for this ttuorial...)
-
+https://docs.mapbox.com/mapbox-gl-js/api/
+https://docs.mapbox.com/mapbox-gl-js/examples/
 
 Screenprint is in C:\react\MongoDBAtlasII.docx
 
