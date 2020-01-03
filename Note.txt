@@ -16,7 +16,7 @@ node-geocoder - handle the geo coding
 cors - cross domain supported
 
 C:\react\store_locator_api>npm i express mongoose dotenv node-geocoder cors
-
+C:\react\store_locator_api>npm i -D nodemon
 
 
 
